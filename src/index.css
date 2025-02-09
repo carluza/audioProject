@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(0, 0, 0, 0.918);
+}
+h2 {
+  text-align: center;
+  background-color: green;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+button {
+  width: 153px;
+  text-align: start;
+  margin: 5px;
+  background-color: black;
+  color: green;
+  border: 1px solid green;
+  border-radius: 12px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-container audio {
+  border: 1px solid green;
+  background-color: green;
+  padding: 5px;
+  border-radius: 20px;
+}
